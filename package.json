@@ -1,0 +1,24 @@
+{
+  "name": "botwhatsapp",
+  "version": "1.0.0",
+  "description": "Bot de WhatsApp desarrollado con NodeJs",
+  "main": "index.js",
+  "scripts": {
+    "whatsapp": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rafalejandrorh/NodeJsBotWhatsApp.git"
+  },
+  "author": "Rafael Rivero",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rafalejandrorh/NodeJsBotWhatsApp/issues"
+  },
+  "homepage": "https://github.com/rafalejandrorh/NodeJsBotWhatsApp#readme",
+  "dependencies": {
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.23.0"
+  }
+}
